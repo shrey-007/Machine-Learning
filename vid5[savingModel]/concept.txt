@@ -1,0 +1,4 @@
+Training a model is a expensive taks, suppose we train a model on January and now we have to use that model again in November, so if we don't want to train the model again we can save the training data into a file using pickle library. So in November we just have to load that model form file and it can again predict values.
+
+What training data does it save in file?
+If it is linear regression model, it saves m,c which are only 2 variables calculated during training. So when we use the model again in November then we don't need to calculate the m,c again by training the model

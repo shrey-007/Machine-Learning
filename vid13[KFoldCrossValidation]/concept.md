@@ -1,0 +1,5 @@
+when we divide the data into training(80) and testing(20) , it may create some problem  
+If the 80% of the data don't consists of the spam email , but jo 20% data testing ai diya usme agar spam emails hai toh model predict hi ni kr paaega kiuki vo spam email ke liye train hi nhi hua, ek bilkul new class ho gyi uske liye  
+Toh agar apan ko suppose test krna hai humare dataset ke liye konsa model achha hai, toh saare model ko train krdo same data pr and result dekh lo  
+Toh looks easy but problem ye hai ki data splitting uniformly nhi hoti toh hum chahte hai ki multiple time test kre ye ni ek baar SVM ki score jyaada aagyi toh use choose krliya, ho skta hai agli baar run kra toh data spliting alag hui and is baas random forest ne achhe result diye.  
+Toh hum multiple baar test krte hai multiple testing data pr and sabka avg se dekhte hai ki konsa model perfect hai huamre liye
