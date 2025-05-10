@@ -4,3 +4,4 @@
 4. Also read some basic stuff from the folder named holidays. Go to parent folder of this folder, there you will find it.
 5. This folder + holidays covered whole Machine Leaning
 6. See deep Learning folder for deep learning
+7. Also see Bias_Variance.md
